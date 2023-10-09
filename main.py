@@ -30,6 +30,7 @@ def simplex_method(C, A, b, accuracy):
             break
 
         # Determine rate col
+        np.seterr(divide='ignore')
         rate = tableau[1:, -1] / tableau[1:, pivot_col]
 
         # Determine pivot row
@@ -89,4 +90,5 @@ while i < len(lines):
                 vector[answer[j]] = x[j]
         print("Decision variables:", list(np.around(vector, n)))
         print("Maximum value of objective function:", np.around(max_value, n))
+    print()
     i += 2
