@@ -1,1 +1,1 @@
-# optimization
+# Optimization | The Simplex Method
