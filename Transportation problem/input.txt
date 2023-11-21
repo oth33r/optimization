@@ -1,0 +1,37 @@
+Test-1
+Number of suppliers (m): 3
+Number of consumers (n): 3
+
+Supply vector (S): [20, 30, 50]
+Demand vector (D): [30, 40, 30]
+
+Cost matrix (C):
+[[6, 8, 10],
+ [9, 7, 4],
+ [3, 2, 8]]
+
+
+Test-2
+Number of suppliers (m): 4
+Number of consumers (n): 3
+
+Supply vector (S): [30, 40, 20, 10]
+Demand vector (D): [25, 35, 30]
+
+Cost matrix (C):
+[[8, 6, 10],
+ [3, 2, 4],
+ [5, 9, 7],
+ [1, 5, 3]]
+
+
+Test-3
+Number of suppliers (m): 2
+Number of consumers (n): 4
+
+Supply vector (S): [25, 30]
+Demand vector (D): [20, 15, 25, 15]
+
+Cost matrix (C):
+[[4, 6, 8, 7],
+ [9, 5, 2, 6]]
